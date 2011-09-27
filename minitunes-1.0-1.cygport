@@ -1,0 +1,9 @@
+inherit qt4-qmake
+
+DESCRIPTION="Qt4 music player"
+HOMEPAGE="http://flavio.tordini.org/minitunes"
+SRC_URI="http://flavio.tordini.org/files/minitunes/${P}.tar.gz"
+SRC_DIR=${PN}
+
+CYGQMAKE4_ARGS="PREFIX=/usr"
+DOCS="LICENSE.LGPL"

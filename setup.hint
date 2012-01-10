@@ -1,5 +1,5 @@
 category: Audio
-requires: gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-plugins-oss libgcc1 libphonon4 libQtCore4 libQtDBus4 libQtGui4 libQtNetwork4 libQtSql4 libstdc++6 libtag1 phonon-backend-gstreamer
+requires: gstreamer0.10-plugins-base gstreamer0.10-plugins-good libgcc1 libphonon4 libQtCore4 libQtDBus4 libQtGui4 libQtNetwork4 libQtSql4 libstdc++6 libtag1 phonon-backend-gstreamer
 sdesc: "Qt4 music player"
 ldesc: "Minitunes is just another music player, only better. Minitunes 
 unclutters your music listening experience with a clean and innovative 

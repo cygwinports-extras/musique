@@ -1,0 +1,16 @@
+NAME="musique"
+VERSION=1.1
+RELEASE=1
+CATEGORY="Audio"
+SUMMARY="Qt4 music player"
+DESCRIPTION="Minitunes is just another music player, only better. Minitunes
+unclutters your music listening experience with a clean and innovative
+interface."
+HOMEPAGE="http://flavio.tordini.org/musique"
+REQUIRES="gstreamer0.10-plugins-base gstreamer0.10-plugins-good phonon-backend-gstreamer"
+SRC_URI="http://flavio.tordini.org/files/musique/${P}.tar.gz"
+SRC_DIR=${PN}
+inherit qt4-qmake
+
+CYGQMAKE4_ARGS="PREFIX=/usr"
+DOCS="LICENSE.LGPL"

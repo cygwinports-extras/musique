@@ -1,17 +1,17 @@
-inherit qt4-qmake
+inherit qt5-qmake
 
 NAME="musique"
-VERSION=1.3
+VERSION=1.5
 RELEASE=1
 CATEGORY="Audio"
-SUMMARY="Qt4 music player"
-DESCRIPTION="Minitunes is just another music player, only better. Minitunes
+SUMMARY="Qt music player"
+DESCRIPTION="Musique is just another music player, only better. Musique
 unclutters your music listening experience with a clean and innovative
 interface."
 HOMEPAGE="http://flavio.tordini.org/musique"
-REQUIRES="gstreamer0.10-plugins-base gstreamer0.10-plugins-good phonon-backend-gstreamer"
-SRC_URI="http://flavio.tordini.org/files/musique/${NAME}-${VERSION}.tar.gz"
-SRC_DIR=${NAME}
+SRC_URI="https://github.com/flaviotordini/musique/archive/${VERSION}/${NAME}-${VERSION}.tar.gz"
 
-CYGQMAKE4_ARGS="PREFIX=/usr"
+REQUIRES="gstreamer1.0-plugins-base gstreamer1.0-plugins-good phonon-backend-gstreamer"
+
+CYGQMAKE5_ARGS="PREFIX=/usr"
 DOCS="LICENSE.LGPL"
